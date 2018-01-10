@@ -46,8 +46,12 @@ Create instances of authors and books based on the following statements:
 - Mary Shelley was born on August 30, 1797 and passed away on February 1, 1851. She wrote the Gothic novel "Frankenstein". "Frankenstein" is about a young science student named Victor Frankenstein who creates a sentient creature in an unorthodox scientific experiment. It is 280 pages long and has a 4.7/5 rating from Google user reviews.
 
 */
-var wilsonRawls = Author(firstName: "Wilson", lastName:"Rawls", living:false)
+let wilsonRawls = Author(firstName: "Wilson", lastName:"Rawls", living:false)
 
 let whereTheRedFernGrows = Book(title: "Where the Red Fern Grows", author: wilsonRawls, pages: 245, numberOfStars: 4, description: "This book is about a young boy and his hunting dogs", genre: "Children")
+
+let jRRTolkein = Author(firstName: "John Ronald Reuel", lastName: "Tolkien", living: false)
+
+let theHobbit = Book(title: "The Hobbit", author: jRRTolkein, pages: 300, numberOfStars: 4.5, description: "The Hobbit follows the treasure-seeking quest of hobbit Bilbo Baggins", genre: "Fantasy")
 
 
