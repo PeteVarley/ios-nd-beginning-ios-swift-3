@@ -12,9 +12,16 @@ For each of the following names and types, create a variables or constant that b
 - studentNickname (String)
 */
 
+let boilingPointOfWaterInCelsius: Double
+var gallonsRemainingInTank: Double
+let naturalLogarithmicBase: Double
+var ageOfSpecimenInWeeks: Int
+var studentNickname: String
+
+
 //: ### Exercise 2
 //: Fix the following compiler errors related to assignment, variables, and constants:
-var favoriteLanguage: Character = "Swift"
+var favoriteLanguage: String = "Swift"
 gallonsRemainingInTank = "2"
 ageOfSpecimenInWeeks = 32.45
 let _numberOfGasIcons: Int = gallonsRemainingInTank

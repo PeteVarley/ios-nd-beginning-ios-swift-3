@@ -10,7 +10,11 @@ Create a struct called Author that contains the following properties:
 - living (Bool, variable)
 
 */
-
+struct Author {
+    let firstName: String
+    let lastName: String
+    var living: Bool
+}
 /*:
 ### Exercise 2
 
@@ -24,7 +28,14 @@ Create a struct called Book that contains the following properties:
 - genre (String, variable)
 
 */
-
+struct Book {
+    let title: String
+    let author: Author
+    let pages: Int
+    var numberOfStars: Double
+    var description: String
+    var genre: String
+}
 /*:
 ### Exercise 3
 
@@ -35,3 +46,8 @@ Create instances of authors and books based on the following statements:
 - Mary Shelley was born on August 30, 1797 and passed away on February 1, 1851. She wrote the Gothic novel "Frankenstein". "Frankenstein" is about a young science student named Victor Frankenstein who creates a sentient creature in an unorthodox scientific experiment. It is 280 pages long and has a 4.7/5 rating from Google user reviews.
 
 */
+var wilsonRawls = Author(firstName: "Wilson", lastName:"Rawls", living:false)
+
+let whereTheRedFernGrows = Book(title: "Where the Red Fern Grows", author: wilsonRawls, pages: 245, numberOfStars: 4, description: "This book is about a young boy and his hunting dogs", genre: "Children")
+
+
