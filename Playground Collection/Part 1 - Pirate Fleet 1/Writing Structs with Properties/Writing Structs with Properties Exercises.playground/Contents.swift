@@ -56,4 +56,4 @@ let theHobbit = Book(title: "The Hobbit", author: jRRTolkein, pages: 300, number
 
 let maryShelly = Author(firstName: "Mary", lastName: "Shelly", living: false)
 
-let frankenstein = Book(title: "Frankenstein", author: maryShelly, pages: 280, numberOfStars: 4.7, description: "Frankenstein" is about a young science student named Victor Frankenstein who creates a sentient creature in an unorthodox scientific experiment.", genre: "Gothic")
+let frankenstein = Book(title: "Frankenstein", author: maryShelly, pages: 280, numberOfStars: 4.7, description: "Frankenstein is about a young science student named Victor Frankenstein who creates a sentient creature in an unorthodox scientific experiment.", genre: "Gothic")
